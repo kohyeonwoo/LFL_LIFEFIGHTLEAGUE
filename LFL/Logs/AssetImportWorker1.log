@@ -15,7 +15,7 @@ C:/Users/gram/Desktop/ClickKill/LFL/LFL_LIFEFIGHTLEAGUE/LFL
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49338
+50158
 Successfully changed project path to: C:/Users/gram/Desktop/ClickKill/LFL/LFL_LIFEFIGHTLEAGUE/LFL
 C:/Users/gram/Desktop/ClickKill/LFL/LFL_LIFEFIGHTLEAGUE/LFL
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gram/Desktop/ClickKill/LFL/LFL_LIFEFIGHTLEAGUE/LFL
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15028] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 2348580749 [EditorId] 2348580749 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8424] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 465293044 [EditorId] 465293044 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15028] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 2348580749 [EditorId] 2348580749 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8424] Host "[IP] 192.168.35.250 [Port] 0 [Flags] 2 [Guid] 465293044 [EditorId] 465293044 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NCGK6FH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004711 seconds.
-- Loaded All Assemblies, in  0.310 seconds
+Registered in 0.006097 seconds.
+- Loaded All Assemblies, in  0.362 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 185 ms
+Android Extension - Scanning For ADB Devices 244 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.480 seconds
-Domain Reload Profiling: 790ms
-	BeginReloadAssembly (83ms)
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 985ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (82ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (134ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (481ms)
+	FinalizeReload (624ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (432ms)
+		SetupLoadedEditorAssemblies (560ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (276ms)
+			InitializePlatformSupportModulesInManaged (372ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (102ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,349 +118,981 @@ Domain Reload Profiling: 790ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.635 seconds
-Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.573 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.666 seconds
-Domain Reload Profiling: 1299ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1118ms
+	BeginReloadAssembly (164ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (404ms)
-		LoadAssemblies (296ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (141ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (667ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (547ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
+		SetupLoadedEditorAssemblies (406ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (329ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (244.2 KB). Loaded Objects now: 4534.
+Unloading 71 unused Assets / (244.7 KB). Loaded Objects now: 4534.
 Memory consumption went from 149.9 MB to 149.7 MB.
-Total: 3.411300 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.840200 ms  DeleteObjects: 0.217100 ms)
+Total: 3.216400 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.119200 ms MarkObjects: 2.664600 ms  DeleteObjects: 0.202600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: 6fa4849c09cf3ec125d3914af6074a21 -> 82bff1d960538992d4e618d909869d2e
-  custom:scripting/monoscript/fileName/DiffSelection.cs: 34faf7c86f7e0c9a01162e930679d82f -> 1460aaba4240ef35322cb9c198487990
-  custom:scripting/monoscript/fileName/CloudProjectId.cs: f33db9e9673144ad1e994ed4cff5ce2d -> 
-  custom:scripting/monoscript/fileName/DateFilter.cs: 4084040ac52b6e24ba874651890c5c6e -> 85ed700e21fd471cc38c626cebe01d52
-  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: be22d181e456c0a8a5713675f29ac72a -> 8ef9a9f407b8b94b2b5fad9d24e61f79
-  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: 51eaf597f9533c7ed197ad15e802d20f -> 74a230000ff2fd58c5a60ab4258207dc
-  custom:scripting/monoscript/fileName/FindWorkspace.cs: 39bbd18bfe6bf4a99f5c185dcda4dd4a -> 6af6c9e9382fef881c020ab184e6f7f5
-  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: d3af1d70d3f60a9847d2942647274222 -> e13fa04a97fb675842c94586fc602871
-  custom:scripting/monoscript/fileName/AuthToken.cs: d22b2893825e943bc1389be142abd57e -> 0fba7e8eb1ec8b699f274cdc956451b2
-  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 6bf8e69ac7dc2163fe988e5d8181ce88 -> 7e6bd1727985204e3b64e1946e589b1c
-  custom:scripting/monoscript/fileName/AssetStatusCache.cs: beede06d8a6d93e7907fd192ad653f2b -> 260d5f85663ac58b2a7e9553c453bc3e
-  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
-  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
-  custom:scripting/monoscript/fileName/OrganizationPanel.cs: d7ac1288bef1b15a05bb26d201a4d87f -> 57a57e6a345dbd536e91c348b70943a9
-  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
-  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0f882939555cf173ece99b60f8f54ade -> fd14db176fff061715c8ec88ced1902f
-  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: cec2f173fe8732108711c497674c6f66 -> d57c2dcace740834acd59fdfbc5023b8
-  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: a191d7293be4538b0adb29dfe5b06a46 -> 52e0d612ab032e4d22e9558b90396b99
-  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: f63ae660320757eb20b7d9aed7318945 -> 9eb29fda08033b4f847247136c412db6
-  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: 6422239d8f649480614f0dd4f018b7f2 -> c6039ac84d85ab3926aa94de163a9f7d
-  custom:scripting/monoscript/fileName/ProjectPath.cs: 5634ebdbea8ca94089eb9622d1b60497 -> 2007f972d3a73eeb86dfe05e849c7f69
-  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: 8967ceae1bc195ea8dd32b23c42dd852 -> e140ede12a96f68f30062138385171c3
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
-  custom:scripting/monoscript/fileName/LocksListViewItem.cs: cc9cd24c5be4f7363367cba72f12aad4 -> f4a19fabbec093eb3d6a7e1cd4f42611
-  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: 9f958546aa4ea45b1b7f3aaaae23645b -> 9a6ef2277212bf26d647c7f12f946287
-  custom:scripting/monoscript/fileName/SignInPanel.cs: f7e82045994d4eefe3b021faa87b55c6 -> bac0318ce35e37bed3a2cc8137452435
-  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 61c4a6a6507d8f84ef5bdf5cba3f0aee -> 8c94fe642e98309082411f46db89106b
-  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: a77980eb09765fe85cd85d4a47964cf2 -> e4e3c9b4bc511687802b504b71016540
-  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: d820344e932a12600b5fe6fb7e9f1563 -> ce229ef3b7461ff17e2c1af0695a6657
-  custom:scripting/monoscript/fileName/SaveAssets.cs: e472a52843752df7d7ad4ca6b2c8da98 -> b56abea3d51c742ac29e4aec958afad6
-  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 9f95c83dc460fb03fb0916472f14b8a7 -> 95287f65338ca0073ad04002a16eaaf7
-  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
-  custom:scripting/monoscript/fileName/HandleMenuItem.cs: 740e54c5f6dca1acc88cad87af74b744 -> b4ad1ecc5243212c5967125ad5e41b1f
-  custom:scripting/monoscript/fileName/ScreenResolution.cs: 5c975132cf4e36dcc261bd0acd604271 -> 7bb7bb5b955671820101b322f0a7bf3d
-  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 8e4094e28762fb76a1baecfe90c6b65e -> 3e8c4ea8debfda8013fed860ac233d22
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/RepaintInspector.cs: 65202bdc05e3e19fadffb7fd99f30154 -> f134606300316994850c28a68d0cb5a3
-  custom:scripting/monoscript/fileName/LockStatusCache.cs: f4fd243a8f5fa98935cbf124204f24b5 -> e99b3f34c5cd3eb73ec19439af1f7f80
-  custom:scripting/monoscript/fileName/DiffTreeView.cs: 68195907d129ef826aa6b6df7202696d -> 49f46fd2a65ea674a218eead75f27aac
-  custom:scripting/monoscript/fileName/DependenciesDialog.cs: 82d30fc8d5e1a73ec0d1ee9acc00fbc2 -> c8902186ab2f4e6471b5dd147afb01b6
-  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: 95a197949f1e777703db60eea8cc21b3 -> d742a4910e302777daa1ccb9c8e92cb9
-  custom:scripting/monoscript/fileName/LocksViewMenu.cs: fda08381fa9abca53b6eaf3bf55f14f8 -> 186d8514e824865b191ba1829afe4b33
-  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: 832662bce0cd8edd53cba36a0dd96da0 -> 13196979a03411533716f6775c9a624b
-  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: 75ea535788abf9c38ba9341c984a6241 -> a49740b6efbb934f55475cc70b864a4c
-  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1a8401f47b522f631a3dc005105719f5 -> 1589212d1638ae91a029ea3ddf9999f2
-  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
-  custom:scripting/monoscript/fileName/FileSystemOperation.cs: c31a686e69e66801c204a11be56c950a -> f0ccbe91654279794a85bf6f1c034716
-  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: af93695e471d9c8e4ad014c4165f2c3c -> 9f3487f03a783b35518405572f20ac9e
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: 7d677c6df38ab15cf390062b5b0bb854 -> a8a18a90f46aa63848e1e45d8d7ff9af
-  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 8ccd7cea9aa918859be0b55818cb990b -> 04a46044def089f0abcdafdd281e3646
-  custom:scripting/monoscript/fileName/ProjectWindow.cs: 953e9bbd852a9f12f91349161baa793e -> c62567a3d71fd74636bc783de5162474
-  custom:scripting/monoscript/fileName/MergeLinksListView.cs: 826afb5fb5988163105086b4bf5027af -> c9488671ae9b14523680d0c19097baa0
-  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 7418be9b22aaea32732f8a5f49569d1c -> 08c2f2b90ef64df631d46389f0e22c8e
-  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: cd9322680ae61d38397008451b7ed0ed -> 1569e3f1dad91a9b01cba66ab6aa30b0
-  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: 69fc4f1a2bc3782d7043ec48961a3616 -> fe1392f9b135da83e13fe8a5e5f39fc2
-  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 7d278b5569d28437d07554a3bbb56e1b -> 5d7f70d142c9ac67864ec14950523d62
-  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 7f5831fc8a41e9cadd84fcfd0e885072 -> 5d7b9646eb14a39b6d3d5bab19d266ff
-  custom:scripting/monoscript/fileName/ChangelistMenu.cs: ca33bac56b3a337faa90a1b1bba632d6 -> c1bf5aeb760cc5eae584ea3944d6531b
-  custom:scripting/monoscript/fileName/NotificationBar.cs: e0f12e3f3292fff5a590c00b59f3a17a -> 0daf459fa0c4269b16bcc20cd072c021
-  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: dbd556f2802baab90a20da38c288d36c -> 99333406d92d10003984b4d1920de2f9
-  custom:scripting/monoscript/fileName/CredentialsDialog.cs: 179b5e49656a1623c2e79d838f0f5876 -> c785d5e40f8d66b7ef7ba04ee7c324e0
-  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: e21eb9983f0b989125951478cd5e9b35 -> 353d1126ca2d2063d5bdbd06806ffc08
-  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: 64a5bf775d221ad9a5ff8c78a1e0e1fa -> d6cbe54be2898ed2c96c2e79572c2e08
-  custom:scripting/monoscript/fileName/LocksListView.cs: 8c6202774eebcf67be9c3b5a2926cc7c -> 7aa51ff93bcc98aa05dec8b46ec200c4
-  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: b043b8d5921892e87f4566e00162cff6 -> 4f4065aeafda2af0ec272a3c228e27b2
-  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
-  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 3e62bfc69ca7486976988e151b88922e -> 8039fc4ecf68b3e966e1f4822789e7fa
-  custom:scripting/monoscript/fileName/UnityStyles.cs: 1e97cd7e9a8ef8ab43da545c6691e95c -> b57f61a58df1c49a1c9d37daf76d42cb
-  custom:scripting/monoscript/fileName/HistoryTab.cs: 4d086984813cd90d6be245dd8e03a2ba -> d57f000c65fde42a2228c7a105a836e5
-  custom:scripting/monoscript/fileName/HistorySelection.cs: 7c3afcf345a55e8b77ea41ca0f570218 -> 3d07a3d1241e204b5420d71f1137eba4
-  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 7b3086384e5ddcd73cd5064a3ce31cd2 -> 5256205b5cf0570b6f698c7abe518f5a
-  custom:scripting/monoscript/fileName/ShowWindow.cs: c731454122754eec192bc3c53fac3d95 -> a6bb1d20733c178256b38974418d7450
-  custom:scripting/monoscript/fileName/LocksListHeaderState.cs: b80c5f044f18764adef2e9dbea5f0fb1 -> c7fe4d3b5f954615048f8e79925d29e3
-  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 1e1c5399cf3d0b071c7982c565a710ce -> 5cec3e66b09e0dbe1f805953c5c64af9
-  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: 4e8cba56a673b7adf6b1f70db522f07c -> a4999d46054383b4cef03a3dac804cd0
-  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
-  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 6423045767c07e6360ff314ec741c601 -> 19e9c54aff6ffc68d60fe11f80578947
-  custom:scripting/monoscript/fileName/CheckinProgress.cs: 298ac58365579798eb3b4defc181ccaf -> 75b93dbc5ef307111f0647f735640420
-  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 766664749a54eea9ecce5dff917430ef -> 1721ad72d074757364587c71b49d9382
-  custom:scripting/monoscript/fileName/LoadAsset.cs: 9042eb334fc462cf466672445be1d4c2 -> 5e4e082aa5b21c13b80eb237fe94d00b
-  custom:scripting/monoscript/fileName/Images.cs: 0b0c14141950fed99e3ef33199b3b4c9 -> fbdd1e600315d249327f3effde045c9d
-  custom:scripting/monoscript/fileName/DrawLocksListViewItem.cs: ce3a3d64ec2d84c3556ffd4141efc4f7 -> 6201c4d50383e970d554210505562d37
-  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: ea9179848be98ee7719316b39339ef29 -> b544f18e6532ba53bbd1b691fa5cd571
-  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1f6674b002b1d5bfee8fb7d42709ffb5 -> 5bd03fb216426d72dde032d651b95d33
-  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 2f16ba7694ec7934685021093e722c4e -> 3cabcd81911a2500dcd9e2b6ffae3f00
-  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 71ba78e42827a9b22a9a6016733d756f -> 4b3c1ae4c44d88205aef26229acfe022
-  custom:scripting/monoscript/fileName/UVCPackageVersion.cs: 0f4077cb83cde000a967972e97c7cc8c -> c4d95cb84d9d8dff4727eba6b0a64378
-  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: 67923e7c73743bbc0577bc7d884f3ba2 -> 9fcb97ef2da44c66332f5c6800c2e6ed
-  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 5f05751fd4d94e02e79a5bf200f98f9a -> 43dcc435c252a54bdaaf4d6588b7d66e
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 8634a542fc5c45ea8cd9a8244bf2c871 -> 9fe61e763da506601651f6c451cecb0a
-  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: 281fe0b171b5382d8cd906c4490e5804 -> d86f9f4463e6f9d99bb815e1f018ccf1
-  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: cef4f9742a881d06eb679f9d361242a3 -> 8c4ae1aeb34c51d2a5a8924265075ff2
-  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 64aa50dcc3bfcf35201c6730dc62acc3 -> 9ce81cedb8e568c6b7b646aa6263645b
-  custom:scripting/monoscript/fileName/ToolConstants.cs: a088b027c7b0922429c756f12b0507ea -> 3b0d2490617bc7f94a0bdab65a399e1d
-  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: 02423a81496d6c63598b5cdc203f4354 -> be35dd49dddd53fc840b9febf21b4d0d
-  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 0dd9138dbeab6f132711a5b608de5c13 -> f20183d4cf939766d3c1e15cc3bec2e3
-  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: eca44847b108faefa69f8c525242c965 -> 3290c4c0cd248666e01a08ee6d621249
-  custom:scripting/monoscript/fileName/OverlayRect.cs: 61f473b5a4768fa31a00fafe3b1b5b69 -> 59d6887e4803f8a44ffaa0409470e410
-  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 309d4276b0164b05348aedbd51cc0b2f -> 10fcc6b6d43dd5ed36c43c6f7b5906c4
-  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 43c262be3f66a970816e3d3a3ee8872a -> 56bcf92a3678f6ad6215cae2e4914cfd
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 2a84c035152261f00e7e66eb44cd0ffa -> 5c2b7bf07ddd2284efc64b09ef0f1f72
-  custom:scripting/monoscript/fileName/GuiEnabled.cs: 1b1658fd7715b5cc664c10a130c6b629 -> 7bb13fcc8d8cbd392e00f7232841f086
-  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 943911b84162d26cea47f964f9a0a399 -> 9fabc7cc73fcfc50b8a3307c6aa6ec4d
-  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 2bb64182aef631315344623cf583c78a -> 8c3c78bb7e82ac5008f8a2b8a0d68cff
-  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: c153245b67af73b7ee03f693a1127796 -> 068a172cb549ad77d9873d721698bd0d
-  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 706e7e86547c339cdb3a4462e3f7a54d -> 087837d8f73228f1a817d0de82c77260
-  custom:scripting/monoscript/fileName/HistoryListView.cs: 527da2d093462f1c4a278d6957e7d5ac -> 7b2d1d2c12ab43d9d244e35197127919
-  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: e3d78a2bee9cc81382a4cb8578dc4fb0 -> b0a38ce0a620643c776a3db4fd91bc4c
-  custom:scripting/monoscript/fileName/DownloadPlasticExeWindow.cs: 2cf8d71648f8d0a7527ca76d9f6b13ef -> 
-  custom:scripting/monoscript/fileName/BringWindowToFront.cs: 88b20f2a2881db6a013f54923d68cdee -> a30c7c1ba746c6d277a5aedd3057d15e
-  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: 4417eba1591eccb2221bfdce0106c1e0 -> e2c1e3f8f4e14a62e4363fe6259adbc2
-  custom:scripting/monoscript/fileName/ParseArguments.cs: 03c1a4d7e357164ca313a0019713c3db -> ae915d9f5fe287ced40627c9ca8bfafd
-  custom:scripting/monoscript/fileName/ExternalLink.cs: 7eb9650651b43fb98c07816e49275ba9 -> a8ff952d8c27d10f226ab92b7aa83b69
-  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 247680fcfc6a176b9fa28a3df600a754 -> 7585e1c7111b6b900784e6d1c9454258
-  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
-  custom:scripting/monoscript/fileName/OperationProgressData.cs: 0db72349eeecbe9449a517b1d79cc760 -> 15f68712baaea535af36d9e0333c0a6e
-  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: c0353a1af15ae4fd3d5a2a3cac816423 -> fb71b961ab7c924511a6b0e8680b60ee
-  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 56be9d3aa410e770e75de2d8b93be89d -> 43bdd7aa5bf1aa039a5b572c119c38d0
-  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 0f1446bdab952811ae2968789e1a2804 -> 04b4ce6556541af6541e1f1c2ea97052
-  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 0d20ca25f94249586a7c1484c469d8a2 -> 48a62ad3f817c0269ea7fc4a53799594
-  custom:scripting/monoscript/fileName/DownloadRepository.cs: 46fc68d9cc4da8e8ed765ff28b2dd438 -> 5bad8d3f76a3fcb41a94637e37c11ab0
-  custom:scripting/monoscript/fileName/ParentWindow.cs: 2476d8a6ba9c3055f984ac9792cae61a -> d6aa079e592e01701c5baa3ab98898bc
-  custom:scripting/monoscript/fileName/OperationParams.cs: 091a140b35535b91c773ddf98925322d -> 3312c7a4424a66ffbf2f88f056f329aa
-  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: a5823728eb62cf6dbd8c933c1cb26f53 -> 6e8957c0ed7609303e68389067e72d72
-  custom:scripting/monoscript/fileName/LaunchInstaller.cs: f9b7c99441bc32980ce9b95be066824b -> b75efdf5909b501e06cacd9c66f75981
-  custom:scripting/monoscript/fileName/AvatarImages.cs: ea6dca998cf0ec5122553a9e010ef687 -> 3aa8c25a350843151ec4070c820c411a
-  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
-  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 2f65feb9bed897237f97fbf9c5479092 -> 7d5385bf780ae84e648a8b49f8fe0825
-  custom:scripting/monoscript/fileName/AssetStatus.cs: b9ea657347f2c22e8e401cdb256c516c -> e017010009bdb28bcb0d7d8ef05e7dd9
-  custom:scripting/monoscript/fileName/BranchesListView.cs: 334a3fb302f855f71fb71520fb442a71 -> 3f5ed9fe5a1bca512014ae1600ee1666
-  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: 363adc150c5f1c5059a678f179906090 -> d3be34a3134d3fe80ef6b14d0d519128
-  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 5f445176ad3735e69769d93250663be7 -> 73f3c859f1b5092ad362c09e23b3a922
-  custom:scripting/monoscript/fileName/WebRestApiClient.cs: c0bdde7ff9e25b1ad06e078e6d9b2fe0 -> 746756fd499dddd02a4e7ccdbac48be3
-  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 78411a54601a32b278de0dd7d80f8670 -> 96479648d4498738733254eb4e4c6fb5
-  custom:scripting/monoscript/fileName/GenericProgress.cs: 11287c7d038c487f32d0c8edc476a32d -> 8492ec26f01fc248d3eb3c2f5b3b6c0f
-  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: c1ecd9dc0cd73eb7eb129994dedc1a91 -> 6bd59fcbfeafe06987a54631991d755b
-  custom:scripting/monoscript/fileName/CheckinDialog.cs: 1709b78fae1329cc05fd4f39334b25f5 -> 702fdb8d0a3b4bfcb9ba109e71325cad
-  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
-  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 69af7de0762ed6d085feb4cc4b5101b3 -> 4a0608de635b0d82868d57923d68eff7
-  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 07a9318d8d82a152df4ec33acd1befdd -> 30c3a785b4c2607e2ae9aad693d5f604
-  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: f3722f38014385705913f17dbe0f90c1 -> 17142d220a0a50a3f3d184c4718a0da7
-  custom:scripting/monoscript/fileName/VCSPlugin.cs: e4ec197b273413c2276be270d94be16d -> 69c1b7249af35f35848ae707bd5e7113
-  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: 4ae14b15e2cf5177a84735548a44cdc9 -> f8db8e637ded2d5e935a953a13b85ebe
-  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 249f5ad4771c3e98b495200005a3d480 -> b0e0c6d694ea3cf81ec666dcc600c133
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/EditorProgressControls.cs: b1f133fa38afd918d537a72574fc93a0 -> 2e606eb01a6e6a567f3de9a0379ed3ae
-  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: d47f1164fa7093137db851c4c16ffba3 -> 82eab21603f4efc696334ee80641c2c9
-  custom:scripting/monoscript/fileName/DrawSearchField.cs: b11b864a92c7d76f85d4ec87d6faf61c -> 3de70beba9f4447205d50241d95b066a
-  custom:scripting/monoscript/fileName/PendingChangesTab.cs: c99065f3c85ec85c85ece2a1a30665af -> 15ae6787065f4af65778e981f418a60b
-  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
-  custom:scripting/monoscript/fileName/BuildGetEventExtraInfoFunction.cs: 1308a6936e8051866a117b3b7c2c7b77 -> 74bfc8c01f931108a3c2b127aa04cc8d
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/WelcomeView.cs: 727cdb3e104b6a2a1b2a292c292f355e -> b6f5ad03828f3d0b6465c52959e1ee5e
-  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
-  custom:scripting/monoscript/fileName/PlasticApp.cs: c440a0fb380601a77ad475d6c15d4fa1 -> c57de230d90beac7b586f10b9c7c6cb5
-  custom:scripting/monoscript/fileName/ChangesetsTab.cs: ef408d8aaf89e01b17643ed0c836680d -> 46dde8f7856048792ad2e75490bb8c5e
-  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
-  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: 5d73d1f1a99af71ddd954044bdf322d2 -> caa8ea2c7336b9227381f0971759e01a
-  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: 5777c5240be2f7d335293a0280866fb8 -> 2f6076b2e74c53c98835d55a044e5fff
-  custom:scripting/monoscript/fileName/ErrorsListView.cs: db8d1e6e1b12cc23734ca93a4d9a27dd -> 32a0a4d27f42660bdc59e43d546f59a1
-  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: fd6f0a038401268983bd9328d10dec93 -> f391d9a00dc9e202cee4d4ebcf6d21c0
-  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
-  custom:scripting/monoscript/fileName/PlasticDialog.cs: 4ceb3ccc6e5a1c5cb9d18e06aa785728 -> 63a17a2b696bc2a13c9046aa16f8cea4
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/AutoRefresh.cs: 9d30d5d3f0e8985355be1ab597da1dbb -> 0a8afde180a876655ad16caa14493409
-  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 56473af084ae343e005353d1ebe26bab -> 7953272c37f4a828a3d1096e7479f346
-  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
-  custom:scripting/monoscript/fileName/GetRelativePath.cs: 9b16eb2de9e98b392077181cc34243c1 -> ab04ae5e0cafb93ebf5c96148bb52df0
-  custom:scripting/monoscript/fileName/UnityEvents.cs: bbca41e222c933c10ac2fdcedacdc4c9 -> 93e3e01e1fc330c62462aa41b286117b
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/DockEditorWindow.cs: 581124d5e19667105f2446d6dfbf7982 -> a9e5e467234133af999283610b6e84e6
-  custom:scripting/monoscript/fileName/BranchesSelection.cs: 7eb1fcb556f0fad697e4ec9d989be099 -> 33b36e7b03910960966036894ec90c7c
-  custom:scripting/monoscript/fileName/SaveAction.cs: b68fbb4319dbb368959c40781b39fdf8 -> 27c387bb58f3a69b0c9ff60d2209e18f
-  custom:scripting/monoscript/fileName/AutoConfig.cs: 2d59994b0f6d23bc58169565099362d0 -> bf4bbd2f2e752464ef51dbf102faed17
-  custom:scripting/monoscript/fileName/DiffPanel.cs: 02288a38bd14cc2b52a25b302a6f154e -> 210366dab3631628227b9406f87a9b7f
-  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ffbead0ce8c78df1634f8fc06dec8ecf -> ff731c8aacf4a537dc74c7cf9eaeaed0
-  custom:scripting/monoscript/fileName/DrawDialogIcon.cs: 2a1cc28b64afd474736eb8a39b842af8 -> 
-  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: 52293cb82089e0370f52e257f41c0869 -> e05748a99799f26304c1bbafd90f703b
-  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/EditorVersion.cs: 70953c9eccf7726f70c672a9a51619e9 -> 698aba075b19a52a056d67a7b809d179
-  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: d06f049421c16e5927ec29f770917e09 -> e53b1ca5561894aaeff930afb696d001
-  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: 5fbb4e0f656dcfaa4498bd2e492e4710 -> ec62666c0ca1649dd33cc6bc6834c6f7
-  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 961fdb6492c99b4a3eadbed28e78c4b0 -> 6c887e722e951c2964523825cad70c4c
-  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 9fc4a0396a421346b8aa3b7788860851 -> 316e5ea62e66b20fd6e687a6b9e5958e
-  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 8fe5de6e5dc3d42fb7e95de2aaedbf5a -> 0d99e7514c6a33cda8314deed8f34bc5
-  custom:scripting/monoscript/fileName/PlasticNotification.cs: 71978c581e1127248a19c9d9e66cd355 -> 3629fdff9f054b2013702f5b131b2c47
-  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: c0e147ff008a0b77c9337132a3ea70af -> 77462b1904ad8f6fee2f8da4523d59fe
-  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: a4a6f6169cdb3afe249e104e2b7b1a2c -> 87f69636be8bd1a264ec4eac1bffa701
-  custom:scripting/monoscript/fileName/CollabPlugin.cs: bda741ff77a19affbf276298e29313ec -> ca276d65e7cd77c5c99d9f119ffdb215
-  custom:scripting/monoscript/fileName/TabButton.cs: 3efe8f66ffd840fd7aeb0585b183d2fa -> 757146b89ed597b1d75c77241e5d5f63
-  custom:scripting/monoscript/fileName/LaunchTool.cs: 3ac53c8af1f56365aad9e1ae5366d98d -> 60773d78646dc188d4b2caca77f20b17
-  custom:scripting/monoscript/fileName/RunModal.cs: 33b931100ee477e6812324eabaa2e837 -> c83ee2ef642c5d8b8dfd32f033bfc438
-  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 8fdaa5aa842f5a70237affa304b9d506 -> 55028f4aef24d6227589aaa95582b2ff
-  custom:scripting/monoscript/fileName/GetAvatar.cs: 07c98163f75f0b7c672bd453fc82bf61 -> 04ffae2a9e5a4c32a119f93144f558d2
-  custom:scripting/monoscript/fileName/FindTool.cs: fc3b0710b24078288fe829d0bb041dd0 -> 2f9d82566cfb01fb68fc30111fb47624
-  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: 75d7831ab5da75cc0082e28863abb142 -> cefccf1e13b7bcf15e3c9f2dd4cd2fc8
-  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: 02eb67e485278e7c9b719fee5ff90f4a -> b955b378d261fdcbd6272fe8711d1e4f
-  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 4d198753827ac1463e02b10d5d04cc7c -> 0f0ce50426259919e339aa7586c1e4ac
-  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 46b225d941aaa7b69168ef4467ffab1a -> 28d3e288ea1cf459fc3cca96347c70bf
-  custom:scripting/monoscript/fileName/LocksSelector.cs: 70b046a562568fd78d093736e68a3a58 -> 7b0f4fc5552c1d92ba7f4648526ceb21
-  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 1deb37b3c17c224d9a7dca9c990ea191 -> 0fe23b7cca9336b31a27790c714de652
-  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: ebc1e6f9e3a3005d8f4c51a794adfdaa -> 3fa407d29597803190dd374d88ed170d
-  custom:scripting/monoscript/fileName/PlasticQuestionAlert.cs: 822b3ee0570c5b12e5690df1874da369 -> 
-  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: ad5449f632fd412ac0f7ba0d171fd453 -> c58c26552f95f108a8d9610eaf001fbc
-  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: e98652ed68c22ec27682c6c2c1fdff6d -> 3e78431222de62ab12804de2e57e71f6
-  custom:scripting/monoscript/fileName/RefreshAsset.cs: f56d23c5126a2dd3db6f272d3d3b71dd -> 21c806d59a337a83fcab56230df298f8
-  custom:scripting/monoscript/fileName/BoolSetting.cs: 9c3f40d0ec58f1b80f82d15e4bda7107 -> 6866476ee3db529747ee7a560b4298d4
-  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 774371d4233cc1d394d98dc80507a1f8 -> 386b03e27c951c5f1d63daf7aae486ca
-  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 15a489e494f04a7ea37a587c7601070e -> 29770348599c8d5473b78d72e5741b40
-  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 5186d89f21d03764f0cca01c2a0122d7 -> 9c91c6c91f20e6d013a753f32343b327
-  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: d154d1782ed752b83834c54a0bde3df9 -> 8b9d539af9f7e269bac4e3d79e9ffab8
-  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 28be74a844bbed0286c3c45dee7283e7 -> 96208057b904410715a8df295ba4f8f4
-  custom:scripting/monoscript/fileName/IsResolved.cs: 12b1cb46be3341613a9d03a0fb32ccfc -> f54a3e2c5134aa4306f9ad150b1911a9
-  custom:scripting/monoscript/fileName/LocalStatusCache.cs: a558fcf5f34357bab4cfc7b75e2bb356 -> 30974ea30517fbfd1b93153f6c849a76
-  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: 143e7416b576681e1f2ea71288e530e6 -> eea34924da79ad7254f3e141a891c78d
-  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
-  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: ff52e13cd29dacd66db0169e14f71a23 -> b042f06133312d3bfed176231d97d77c
-  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: 28072cd275c96994687e6d4d0d6e1dff -> cf716a8d336c8113475a9ca67a799ec1
-  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 2d3b1fc954b6bdbae298ec250ade0663 -> 96f2b67ec620b83e35d13f11877e1ac1
-  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 00463e6b90cfe7da080d7c266f783980 -> 402d5663f3675e9324c129274b0c00f2
-  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: 1012e4e2e29e9b29bdcc03d8b92762a8 -> f258b0cf85078a7435d001e522d5e8e3
-  custom:scripting/monoscript/fileName/EnumExtensions.cs: 24df84756ec75feecd53a80a0991ea16 -> 872fcb89b813d64606e680211dede528
-  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: 4475d5d6d9583dbe65c4824e6a1fe6aa -> fc48261878ef7e4b956e7172f5803aee
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: a6749c8b534ffb85ccf809bc8e274114 -> 42967773c43d3de5d23be4ddc6dfd9c4
-  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 447fc3a8922f56330f4bae8c9dc9a8be -> 1029ffd567bc0e646e6b119719dcb2ff
-  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 114eb9e27124403e8e111494b8eaf987 -> 662b1714c0fce36da72bbfe60201987a
-  custom:scripting/monoscript/fileName/SearchLocks.cs: f40ae73b301d84efae1a6385552c43ff -> 
-  custom:scripting/monoscript/fileName/UnityConstants.cs: dee423a5d393260ccda31829b4392abf -> c519528656feb52bc4c37f6b6284546e
-  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 3e4283303610c884e542b8f6d3e922d4 -> 4a3dbc5ded94087064afd97407f26631
-  custom:scripting/monoscript/fileName/AutoLogin.cs: d257b2b319167ee8af9b75266dabb58c -> cac363a2d5471994de278e71f937b032
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: a101f0ba5292fc139445870b3f4af838 -> 9f63395e1ea590dbbab4d59cd0032ac4
-  custom:scripting/monoscript/fileName/DrawSplitter.cs: ec7e8739eacabcca3e2946d9833eea0f -> d2f114a8e8e4167f7762d835a83b2f55
-  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: e1c527862a66e73f0417ae177d7fdfb5 -> 2cabf22eb95430074b6c730a84e03493
-  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 96b135ae1c4ea541dc762170ea524fa9 -> 3dd2507693e56dac75ee7783f598cbb9
-  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 831bbe9f0510da02e07943dba200580f -> 20e85a96a5926a180bb53a2abca68aa4
-  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 4cfaefa1a850aceff54713912c4a2bda -> 111849f67dfbfea65ad2a9298ad1654d
-  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: 0b2a2cd4c41cf1865a29cf91b2a96a48 -> d032d69e8060311c06b88286e8f22ddd
-  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 68fab310addfd7068cfd7920070496ff -> 9b0019b6df6bb14eb3a2dbafa53fb54b
-  custom:scripting/monoscript/fileName/AssetsSelection.cs: 35cec24e81f0cb1de51daeb356abc4ff -> 0227d7ff4d5687932d10967a945a9b06
-  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
-  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 0a14faa9ef1a178a87cdca925b1963c3 -> 920e8e381bfc94da8bb69d336dda57ca
-  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: 6226ef13a567fa81584864f8698be331 -> a87e0364d14866c369ad50d669bdfa85
-  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: c886fdb39f4b8787e6ea3701a8f88f4a -> b1721e471183956468462f6b64901640
-  custom:scripting/monoscript/fileName/AssetsPath.cs: 367269acf8f676d2cdd30fdc387b3920 -> e0e986124adc46d913f0683c34b88c9f
-  custom:scripting/monoscript/fileName/MetaPath.cs: 1f80313a7ce6ec6ece505285578f5745 -> 417a84eb354831f828a6752b26c8592d
-  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: 90e9c2de8d7bdd8424e0d89c415108ae -> dbacf67c37819fd95562fe169e706732
-  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: b720f0168f4ce1b1e0d358a6d5ec9a42 -> 7d1a2de81910b5990e71a0bfff26fdca
-  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 2a7f71f59c0d7dc731fd345a3713957c -> 24eef0792e3802809607a7f9d04b8f1d
-  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: ee462057b3bd23cc3dab953ac4d656e2 -> 0b123406cadd651e9adc01c85fab5124
-  custom:scripting/monoscript/fileName/StatusBar.cs: f75c824d5cc26fade21f744dad26925b -> 2c8c488a8bbfe924f6b53b202ff6aadd
-  custom:scripting/monoscript/fileName/IsCurrent.cs: 16ae2475c9982c21b0dccb3cdf4b1a92 -> cf1fd01890d0fd9f011c1a1a491e2cf0
-  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: b986ab8b1acd322b0367812e2d541734 -> ba336e4117e1b7ee28e4c17197bc3d0e
-  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: 3a2ef8cb0baf69e5dadeafc731fe32a9 -> a90b3e388d3e1316fa104d4c9a03e2d1
-  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 69a46a0158b3944983921513a6337a68 -> 1c13cf7a9498073806920e71757dfeda
-  custom:scripting/monoscript/fileName/LocksTab.cs: 134c512484ae73354c15c06a6dc69f9f -> 00ffb5a39c16fdc2d733c7e53471a3a9
-  custom:scripting/monoscript/fileName/BranchesTab.cs: 764cb17e9337c58ad4f5304b60b2042e -> 57c33f76c527a5aba4d269245ffff188
-  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
-  custom:scripting/monoscript/fileName/ToolConfig.cs: 18b1ea271ce5e7b6deea7b4e8e175269 -> fcffc3165b047f54ed6ccafa4c8760dd
-  custom:scripting/monoscript/fileName/DropDownTextField.cs: e66e7314096900597993d2b353757d8d -> c8fc484ce140049ff31ebc2c6cbebf28
-  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 47679a6e15b70f4fef48eb1b2df31b19 -> 18737889e95cd4088e8dfd4153fa8f40
-  custom:scripting/monoscript/fileName/DrawActionButton.cs: d847a7d82ac92cab2b3d0ae268cefb3d -> 81e6708d2b8fa199354e53f85db731a8
-  custom:scripting/monoscript/fileName/TableViewOperations.cs: ddc7b903e0dbd6bd109f2bd709b95f0e -> bef3a31deb1fe794a90f767d16e4c868
-  custom:scripting/monoscript/fileName/UpdateProgress.cs: 5b04f01bf199310f09ab9522f89c78f4 -> 281e1e05168d6a30be1d8d2f6200bef8
-  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e10e0299ef716630c63b8cf5f792cda0 -> e5121cec860a6d1097cc809217b3d8fe
-  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: 5f8d39e3ea7c4a42148c6b1a7b4ca061 -> a5f2abd8875e7a6afbc171fabfbae81f
-  custom:scripting/monoscript/fileName/ToolbarButton.cs: 0b8663f5acfbbe9acf3c68758e2857fb -> 47dc767626bbd94d66707af31ddc5eb6
-  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 349dc288d32791de51156d4e59000b7b -> 2560eadaf6a13a74a46a4a207cd5a8b6
-  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: cceebc4f1185658619e40964f29acb08 -> 0921a62a588ab864253743d1f07afb5a
-  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: 2426c0c2ee58cd28be59874f6425940c -> d87f46f9fb97181a2f51490ea2e1efc3
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: dcd6ec2e7fb1b44f22c4a79ff87b70cd -> c8f6be9dab1e6f8d71e0c63c29679186
-  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 21802cc6929e0e180fb4f0be8e34d9d0 -> 722de7d6e07a79981d750438e6febb8f
-  custom:scripting/monoscript/fileName/EditorDispatcher.cs: c739e073a8c38dbcf59192f45d1004c5 -> 3c402eae57d73cc54863f3f6a13096ae
-  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 363f9daba453e316e730238a80857251 -> 40644cd18074db84684b9e437bf8fa77
-  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: f00e4b795697c6cf3092760f3b6fc49d -> d599d6efdee28305661bc0cf6683858a
-  custom:scripting/monoscript/fileName/ChangesetsListView.cs: caae0aefb36c869f50691482a5cd0944 -> 87b74e0d80cf59010f55e2baaeb6679d
-  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 2d8fccdaad50bbd7454b52cf9cb4a0f9 -> 08d26df1ab6c3a7628addc5e54e50b08
-  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 59a8f0715a7c89a752351bf42f94abbd -> 874cd65cce0384fef4b60e71fb08a429
-  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 5e11ff64963669981115eb58dc2b6e8b -> 1e1255b803bf7cbc935bb804bf0dbe7b
-  custom:scripting/monoscript/fileName/PlasticPlugin.cs: a57c142b98ca3d4daad221737fd72924 -> c64561980f26020cc3206ae8b1047268
-  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 4d9c02587760213784bfe53d012122b4 -> 30cd71d0b3ee4b2689cde689908d301e
-  custom:scripting/monoscript/fileName/PlasticWindow.cs: 76740c086f0109337962354fe520adb2 -> fc467478941f610919bc69526ba2c215
-  custom:scripting/monoscript/fileName/GUISpace.cs: 8f50176adb72cb92a80e5c8eb8b79a13 -> 
-  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 8089f11c30784e2e57775dd6cdbae898 -> 7bfc83e917c9b0b5aa423bb947ce2a38
-  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 7816cfcad485500dbac9993c4502ea69 -> 4c95e39c8dd4cfa1bca106097fdb6524
-  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: fa7bda723ac795b48e38504727f44981 -> d09e0b5c7a9af5874530e17ef23025f0
-  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: 4c3294c6a51e6f42161d191230692016 -> af2b76c693935deee55cfcaed2aa7568
-  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: 84d720d70e5c24b7d0630ef5cea215ce -> a602c9e59e7db185e3a0d68d986e6fef
+========================================================================
+Received Import Request.
+  Time since last request: 1779523.273143 seconds.
+  path: Assets/Assets/Images/Thropy.png
+  artifactKey: Guid(edd38da1f3cfa074fa5aae45d0ba585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Images/Thropy.png using Guid(edd38da1f3cfa074fa5aae45d0ba585a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcde1a2e5c085c8553304420a04f7889') in 0.088977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 252.246279 seconds.
+  path: Assets/Assets/Dark UI/Free/32 Light.png
+  artifactKey: Guid(a689281f545979940b5cedad12ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/32 Light.png using Guid(a689281f545979940b5cedad12ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51159f625a03cba0e72b17e56443ac2d') in 0.027026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/Free/64 Light.png
+  artifactKey: Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/64 Light.png using Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a2cb76c59595fc76f388846c1bee9c') in 0.028635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Dark UI/Free/CIRCLE2PXLAR.png
+  artifactKey: Guid(a05d49e5687fd3c4380912ac00e2db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/CIRCLE2PXLAR.png using Guid(a05d49e5687fd3c4380912ac00e2db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845f1f128f04c31feadba64add060f3e') in 0.032633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Assets/Dark UI/Free/Button_Medium_A.png
+  artifactKey: Guid(f9fa9ebfa2606f840a23f0bb0ac882af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Button_Medium_A.png using Guid(f9fa9ebfa2606f840a23f0bb0ac882af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd820cc76791c62bc944e8eb70392f9ee') in 0.029328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Dark UI/Free/CIRCLE4PXMED.png
+  artifactKey: Guid(ec6eebcb88fa2314796ef9605c6a43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/CIRCLE4PXMED.png using Guid(ec6eebcb88fa2314796ef9605c6a43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c575c207664256161a457a6ee6ea2a') in 0.032886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Dark UI/Free/Bell.png
+  artifactKey: Guid(f004d321f2825c44d929e3d0f5844b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Bell.png using Guid(f004d321f2825c44d929e3d0f5844b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d060b9e197278427d7bfbe9444027') in 0.024526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Assets/Dark UI/Free/64.png
+  artifactKey: Guid(701e7ed4dde1bf949b30e33741547ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/64.png using Guid(701e7ed4dde1bf949b30e33741547ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea53f64957f70b1c019c28300e4701be') in 0.025154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/Free/Button_Large_A.png
+  artifactKey: Guid(fee7cb0981897184ca8e254670a1d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Button_Large_A.png using Guid(fee7cb0981897184ca8e254670a1d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adc7e990a21524babad71d672986176') in 0.028716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Dark UI/Free/128.png
+  artifactKey: Guid(87ea2079a91b3e74f84b5cb700abb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/128.png using Guid(87ea2079a91b3e74f84b5cb700abb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9349448a4219342ae43730cfe1424df8') in 0.028940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/Dark UI/Free/BTN_Line_4PX_Medium.png
+  artifactKey: Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/BTN_Line_4PX_Medium.png using Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf625901464a43217e1feaef44aefb06') in 0.028334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Dark UI/Free/ButtonSmallRound.png
+  artifactKey: Guid(04c64e19d8f8f0140837c8a6b21c358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/ButtonSmallRound.png using Guid(04c64e19d8f8f0140837c8a6b21c358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1a163efb2d123e6b47d6c856e57275') in 0.025583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/Free/64 Light 2.png
+  artifactKey: Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/64 Light 2.png using Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d9ead73aaec69f44051e469c3df0aa') in 0.027087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/Free/CIRCLE4PXLAR.png
+  artifactKey: Guid(1d02c027313a6514a849aa45aed65be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/CIRCLE4PXLAR.png using Guid(1d02c027313a6514a849aa45aed65be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be94ebcdef66f8f786ab16c92e04d865') in 0.024812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/Free/B.png
+  artifactKey: Guid(0800cc9d4da0323489f4d25c65194aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/B.png using Guid(0800cc9d4da0323489f4d25c65194aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75472c15bbd16f9fedcd5d2ab09429a6') in 0.024474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/Dark UI/Free/BTN_Line_4PX_Large.png
+  artifactKey: Guid(c5c79f69909c16942b803f137f3ca0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/BTN_Line_4PX_Large.png using Guid(c5c79f69909c16942b803f137f3ca0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc186799e3ea0c2da8e5aa4b6e17a8e') in 0.026160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/Dark UI/Free/C.png
+  artifactKey: Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/C.png using Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343ddf1023560b9e0864c98f40113ef9') in 0.026509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/Free/A.png
+  artifactKey: Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/A.png using Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f681a2094aa6fa2132c13090f5392841') in 0.030252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/Dark UI/Free/BTN_Line_4PX_Small.png
+  artifactKey: Guid(a2d6a7e9df0789d4eaf8dbbac47eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/BTN_Line_4PX_Small.png using Guid(a2d6a7e9df0789d4eaf8dbbac47eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bf7256b3e524451a8f548ea5aa61f7') in 0.029258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.693766 seconds.
+  path: Assets/Assets/Dark UI/Free/Down BTN.png
+  artifactKey: Guid(adfae103208dcfb479b198bfb03f095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Down BTN.png using Guid(adfae103208dcfb479b198bfb03f095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf0c1a19a25253ad5ca412dc8f5f827') in 0.032435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/Dark UI/Free/Facebook 2.png
+  artifactKey: Guid(741fdffd863c9784990792a90548e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Facebook 2.png using Guid(741fdffd863c9784990792a90548e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e399d0879f53985c706421b739974b3') in 0.032764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Dark UI/Free/F.png
+  artifactKey: Guid(0fe7093e9bd11cb43b64578a75562ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/F.png using Guid(0fe7093e9bd11cb43b64578a75562ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd308e8703e9a0f08dc0513868a6296cb') in 0.041768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.355663 seconds.
+  path: Assets/Assets/Dark UI/Free/Heart.png
+  artifactKey: Guid(cfad8ef0b5f68ac46bd02b3156b377a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Heart.png using Guid(cfad8ef0b5f68ac46bd02b3156b377a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a72ce2ec9c178c19693951f48afe5e') in 0.040638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/Free/Inventory.png
+  artifactKey: Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Inventory.png using Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ab99581756fc6c25bdc49d84b29133') in 0.023532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets/Dark UI/Free/Info.png
+  artifactKey: Guid(c0d66557e6e886446b2af17220906a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Info.png using Guid(c0d66557e6e886446b2af17220906a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa0bebd21605f1c9fb6200e5841a197') in 0.022667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/Free/Lock.png
+  artifactKey: Guid(f9e4c141412ca6345963f9ece84aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Lock.png using Guid(f9e4c141412ca6345963f9ece84aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8823df974176ff14bc47072f82cd44') in 0.024661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/Free/Missions.png
+  artifactKey: Guid(b52130bb79a23344aa8c335cecb91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Missions.png using Guid(b52130bb79a23344aa8c335cecb91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98e79690b2215b999935f4140297a71') in 0.023748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/Free/Left Arrow.png
+  artifactKey: Guid(210e6a7b28c57aa4e9408866e861895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Left Arrow.png using Guid(210e6a7b28c57aa4e9408866e861895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259a1d80c145f69005049d25ffac267b') in 0.025447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.995801 seconds.
+  path: Assets/Assets/Dark UI/New Icons/PowerUp1.png
+  artifactKey: Guid(ff885d2457ed2194885eb7115ae6f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/PowerUp1.png using Guid(ff885d2457ed2194885eb7115ae6f535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f17d87244d4b691d79afd58fe2746e') in 0.031352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/Free/Ranks.png
+  artifactKey: Guid(e8433df827a81cb48bac4ebc18d1e25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Ranks.png using Guid(e8433df827a81cb48bac4ebc18d1e25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd42b78d7649543f197ca8881545037f') in 0.027945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/Free/Right Arrow.png
+  artifactKey: Guid(7cf2f46063edb3445a4b32cbd687b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Right Arrow.png using Guid(7cf2f46063edb3445a4b32cbd687b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a6dc2af7ae236f4edb2bf5b8d28d01') in 0.028431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.413426 seconds.
+  path: Assets/Assets/Dark UI/Free/Shop.png
+  artifactKey: Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Shop.png using Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa8df1a809789c754b1805edb30c231') in 0.026723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/Free/Sound.png
+  artifactKey: Guid(a0993af277162934b9f02610f6f941f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Sound.png using Guid(a0993af277162934b9f02610f6f941f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd547f46f1783f737e34c3277deb0a23') in 0.022546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Dark UI/Free/Up BTN.png
+  artifactKey: Guid(156c51bba7cc9d24496e86f11d08bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/Free/Up BTN.png using Guid(156c51bba7cc9d24496e86f11d08bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea04a26daf2a2c4b3586e4ad61415bb7') in 0.025462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Add.png
+  artifactKey: Guid(4e3c49dc98f8a444ab28337dac1f094b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Add.png using Guid(4e3c49dc98f8a444ab28337dac1f094b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccab64cbb922578a0d45708e85729c9') in 0.026290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.650989 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Alarm 2.png
+  artifactKey: Guid(8bc5f3314f9c4ab40bc4f83e50c6b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Alarm 2.png using Guid(8bc5f3314f9c4ab40bc4f83e50c6b997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e161d1346d096d37107b737707a7f32') in 0.055904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Armor.png
+  artifactKey: Guid(0161855221fea1d4a838fa168e345120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Armor.png using Guid(0161855221fea1d4a838fa168e345120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542c058ee5105f2b1df1d3ce60281b74') in 0.028060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Anchor.png
+  artifactKey: Guid(5ac1f56673bd69f40b2a72c9679ffd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Anchor.png using Guid(5ac1f56673bd69f40b2a72c9679ffd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fc84a6af270daae6681f857a5513fb') in 0.028396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.581680 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Backward.png
+  artifactKey: Guid(b6602d0c6419ec54eab44dbd00d87542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Backward.png using Guid(b6602d0c6419ec54eab44dbd00d87542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01553c3fe574685fbb21a672312b43a5') in 0.037835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.344210 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Battery Empty.png
+  artifactKey: Guid(a99fd916c936da04d8b6b4060f671033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Battery Empty.png using Guid(a99fd916c936da04d8b6b4060f671033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7145ff99826be4e98a4de5df122124') in 0.032305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Battery Half.png
+  artifactKey: Guid(f02e31639847b0645ae4fbdf08aa5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Battery Half.png using Guid(f02e31639847b0645ae4fbdf08aa5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7958ef1bfa5ce26391c32a6f520c8d6') in 0.030094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Blade 3.png
+  artifactKey: Guid(675b4c7eb4ac83c43b39af77b9a67ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Blade 3.png using Guid(675b4c7eb4ac83c43b39af77b9a67ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfce8b9c773466137aab1ab5edd9c5a') in 0.026657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.445256 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Bomb 2.png
+  artifactKey: Guid(e2fb9b036251cbd40aa3fd9152bd5420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Bomb 2.png using Guid(e2fb9b036251cbd40aa3fd9152bd5420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4f8116e68386e5fbfad83acf60c496') in 0.035722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Bow.png
+  artifactKey: Guid(9031ddff7d13d6c4fad61bb77e53414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Bow.png using Guid(9031ddff7d13d6c4fad61bb77e53414f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5329d47cda6a5fb5edc4cd3d302ae7') in 0.032018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Building 2.png
+  artifactKey: Guid(383bf5fb512d2384db36f92da2ba5e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Building 2.png using Guid(383bf5fb512d2384db36f92da2ba5e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7249d2eeffcd419aa1b3bd70c01d55d8') in 0.036447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.964217 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Calendar 2.png
+  artifactKey: Guid(bf175eb440638474aae5e3fbed0a4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Calendar 2.png using Guid(bf175eb440638474aae5e3fbed0a4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94acf3e0f3d2a915a492c944c54de2b0') in 0.039767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Cauldron.png
+  artifactKey: Guid(374ee4817f286c24e882fd171babbb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Cauldron.png using Guid(374ee4817f286c24e882fd171babbb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ab40bc821d0ec2bd1dd8d0b6a6759a') in 0.024623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Chest.png
+  artifactKey: Guid(e43952f029d87404b8e6401bed71c7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Chest.png using Guid(e43952f029d87404b8e6401bed71c7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2311581fd282e8df9a0322bc1e1a71f') in 0.024660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Clock.png
+  artifactKey: Guid(7ec10866735f0ec4f88a6b20a16ad476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Clock.png using Guid(7ec10866735f0ec4f88a6b20a16ad476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86f950231ac5aa46cf58d58dee9f283') in 0.027842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Compress.png
+  artifactKey: Guid(3bc40403c8e3e564ea87b52fdfa22c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Compress.png using Guid(3bc40403c8e3e564ea87b52fdfa22c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d2207e1f57091930ba59d4077afd3f') in 0.029025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Castle 2.png
+  artifactKey: Guid(8594eda5bcbfff046a1f1c4c793a03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Castle 2.png using Guid(8594eda5bcbfff046a1f1c4c793a03e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f0f95c52b326d698a3897b2edada9') in 0.026750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Cross.png
+  artifactKey: Guid(2f7e81f4616095a40b3309b8b577af15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Cross.png using Guid(2f7e81f4616095a40b3309b8b577af15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a56486d047351a39dd6968d89649027') in 0.028316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Chat 4.png
+  artifactKey: Guid(c72f41e83b785ec43adb5d5908fadf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Chat 4.png using Guid(c72f41e83b785ec43adb5d5908fadf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a3d4bdce828281564c44bce7ab3918') in 0.027297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Click.png
+  artifactKey: Guid(cde92da782a3fa24985de86cf32bd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Click.png using Guid(cde92da782a3fa24985de86cf32bd393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73047171178d53443b144ba0fdaa8fab') in 0.025849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.064427 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Dice.png
+  artifactKey: Guid(64db32877a71c0540a452131b164cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Dice.png using Guid(64db32877a71c0540a452131b164cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d0c760caab2fc36c01b63e3af8f3de') in 0.033020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Energy.png
+  artifactKey: Guid(9b03d0e2a9247694d920c0e8d27668d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Energy.png using Guid(9b03d0e2a9247694d920c0e8d27668d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4071b854b5bb5e0d0edb7c17b28b86b3') in 0.030982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Fan.png
+  artifactKey: Guid(0d13b5506e82d064bb0669ff877405ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Fan.png using Guid(0d13b5506e82d064bb0669ff877405ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f66093236f4f7f99938bb846e66b894') in 0.027511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White FastFordward.png
+  artifactKey: Guid(802a7f4783974a04d85bfea4c8d83bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White FastFordward.png using Guid(802a7f4783974a04d85bfea4c8d83bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cf84aa03b9167ec47dc485df4d59da') in 0.025239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.148529 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Fire.png
+  artifactKey: Guid(55a26f8ddf4bcd84ebac28cd0267311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Fire.png using Guid(55a26f8ddf4bcd84ebac28cd0267311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8060115606bb90ed00021797641e011f') in 0.049203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Fish 2.png
+  artifactKey: Guid(4ed054b89ed50074cbc9fc2e896ab9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Fish 2.png using Guid(4ed054b89ed50074cbc9fc2e896ab9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a4aa06cc42acaf65feba7916d47051') in 0.029450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001176 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Folder 2.png
+  artifactKey: Guid(7d7a478af16c6d147ad4f8f969ae50b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Folder 2.png using Guid(7d7a478af16c6d147ad4f8f969ae50b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3162b480f644f0c42318aa401315056b') in 0.032120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Gem 2.png
+  artifactKey: Guid(d51bf16180dfdf3418a9d16a2d857e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Gem 2.png using Guid(d51bf16180dfdf3418a9d16a2d857e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e465eea6e9b3632ae3b7a41264ef69') in 0.033064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Gift.png
+  artifactKey: Guid(0a9348ff9de6b7c4db0399ea17e32017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Gift.png using Guid(0a9348ff9de6b7c4db0399ea17e32017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e29e9ac1d153d1c2297c80fb922a355') in 0.030697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.180504 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Grenade.png
+  artifactKey: Guid(77c8e4db152f76042bcd8c7632b5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Grenade.png using Guid(77c8e4db152f76042bcd8c7632b5f4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd750c4ff9e702c3d499022b0d35b3e') in 0.035183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.025187 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Heart 1.png
+  artifactKey: Guid(d38c80a4703ca304c9480ccafd4cbae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Heart 1.png using Guid(d38c80a4703ca304c9480ccafd4cbae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b791a2399791f94c2a7bb561904190') in 0.026739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021236 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Helmet 2.png
+  artifactKey: Guid(545e606a1b3e77d4999432262b993f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Helmet 2.png using Guid(545e606a1b3e77d4999432262b993f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061fd1138a688c0b4d2be9f09abde79d') in 0.028837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Home 2.png
+  artifactKey: Guid(46da1ec1a579f104798ed66f5db796f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Home 2.png using Guid(46da1ec1a579f104798ed66f5db796f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910d78c8f3739979af4efabddcca8b5d') in 0.023918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.041974 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Infinite Symbol.png
+  artifactKey: Guid(99bb95cd1d5a33244be1710d440a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Infinite Symbol.png using Guid(99bb95cd1d5a33244be1710d440a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bfab8b2fc55e7cf97126895a8b1079') in 0.040865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.034856 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Leaf.png
+  artifactKey: Guid(ef38a985d8530104184a2a4ded6fb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Leaf.png using Guid(ef38a985d8530104184a2a4ded6fb3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb02d673dc19d731f0de28d40ec13e8') in 0.030622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.172246 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Location 1.png
+  artifactKey: Guid(65f27128858deb84b8cee1a3a88ea099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Location 1.png using Guid(65f27128858deb84b8cee1a3a88ea099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9fc364ef4280d34918fff88baa4075') in 0.030090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Magnet 2.png
+  artifactKey: Guid(c58c0b67c01722243934b4d3b8bee79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Magnet 2.png using Guid(c58c0b67c01722243934b4d3b8bee79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf2d8cc4cba8b66160eb6eda9549275') in 0.030536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Map.png
+  artifactKey: Guid(d2fedebafbc90dd4687c05798b9e399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Map.png using Guid(d2fedebafbc90dd4687c05798b9e399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e3ede42497589e744d685ec5910880') in 0.038693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Menu 3.png
+  artifactKey: Guid(773d54018f715d74a8a79de354bac817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Menu 3.png using Guid(773d54018f715d74a8a79de354bac817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ada13ef5da64ed79447feb45f340465') in 0.026141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Mountains.png
+  artifactKey: Guid(51cb959a405bfe14ab84874b95a03752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Mountains.png using Guid(51cb959a405bfe14ab84874b95a03752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1eed69f0e841472324abea1f1ae953') in 0.027375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Move Down.png
+  artifactKey: Guid(998c6d515d6382f4eb57bd35a3ee7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Move Down.png using Guid(998c6d515d6382f4eb57bd35a3ee7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3174d504f363034e240161c2e2009ac') in 0.028263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Move UpDown.png
+  artifactKey: Guid(12eec56a0c2b4c34ab3390af05886ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Move UpDown.png using Guid(12eec56a0c2b4c34ab3390af05886ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cfa7570128cb8548eb5b748389dd54') in 0.026246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Move Up.png
+  artifactKey: Guid(36bda6e11a324274d82ad68797ec4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Move Up.png using Guid(36bda6e11a324274d82ad68797ec4f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b77743db4ef526fa53a4caa53c0a0a4') in 0.038115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Number Sign.png
+  artifactKey: Guid(397fe1f6355c6034d88a2f86fe4d3707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Number Sign.png using Guid(397fe1f6355c6034d88a2f86fe4d3707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb4b22682df4a390e13b542f401846a') in 0.028141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013402 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pawn.png
+  artifactKey: Guid(d0385e81792813d47941df5768214d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Pawn.png using Guid(d0385e81792813d47941df5768214d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493f01a00f89564eadb5a5c27ce07c7b') in 0.027331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pen.png
+  artifactKey: Guid(8f7b8cbf3f3080943b74eca26c930727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Pen.png using Guid(8f7b8cbf3f3080943b74eca26c930727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17129090a1951399d180e8f65f207c8d') in 0.030316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pen 2.png
+  artifactKey: Guid(c99c6c33ed98b2742bb329bbbdc0b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Pen 2.png using Guid(c99c6c33ed98b2742bb329bbbdc0b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1e9f92631ec06775d78513e5788e92') in 0.030594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.120878 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Pilar.png
+  artifactKey: Guid(050766841e70e9a4f88cd9b1651e1503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Pilar.png using Guid(050766841e70e9a4f88cd9b1651e1503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463c0978669fd600e5537e9e69a50e47') in 0.029992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Planet.png
+  artifactKey: Guid(bdfdf6f3bbf366a4daf460fc75ee768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Planet.png using Guid(bdfdf6f3bbf366a4daf460fc75ee768c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e82a694b86e81d58c20e64716a388a') in 0.026424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011584 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Plug.png
+  artifactKey: Guid(8e195898cf1979a419a5a7e85fab55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Plug.png using Guid(8e195898cf1979a419a5a7e85fab55f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5471480c3512491d11d89ebe275015ca') in 0.026999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Potion 2.png
+  artifactKey: Guid(da84f20f8bcee2e43956fcd33ce9674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Potion 2.png using Guid(da84f20f8bcee2e43956fcd33ce9674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543ddc62c3d27d7ad7346544dd30716c') in 0.024954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Print.png
+  artifactKey: Guid(5d5b2ca7b604b2446a73432e660fbd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Print.png using Guid(5d5b2ca7b604b2446a73432e660fbd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc2168a25fee38b178503662b0883c7') in 0.026375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Power Up 2.png
+  artifactKey: Guid(18e7d3ae1d658eb488e528eba8f5dbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Power Up 2.png using Guid(18e7d3ae1d658eb488e528eba8f5dbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39604af6b34f5fbb4c204cd79122dac') in 0.024913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046662 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Quiver.png
+  artifactKey: Guid(4fc864b338388bb4e9ac8685388b15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Quiver.png using Guid(4fc864b338388bb4e9ac8685388b15cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6a2ac5d88ccaad352ff8964aff79ae') in 0.026530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Ribbon.png
+  artifactKey: Guid(5f6ac321af880674cbe43fffb520a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Ribbon.png using Guid(5f6ac321af880674cbe43fffb520a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b96a6bae4167ffb92a207914b04f6b7') in 0.023585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Return.png
+  artifactKey: Guid(cb186d85a860f3348acfd63ce4bb1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Return.png using Guid(cb186d85a860f3348acfd63ce4bb1a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3952db7464f274d5f7b6989a65ac3e') in 0.027344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012977 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sad 1.png
+  artifactKey: Guid(c66141a215c08e347882017d498f50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Sad 1.png using Guid(c66141a215c08e347882017d498f50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479cd5faec2f54803fa380bc345f109') in 0.031122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.141453 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Select.png
+  artifactKey: Guid(6c5836c8c1310914b85347abf9a4dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Select.png using Guid(6c5836c8c1310914b85347abf9a4dc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a950dfb1d23d4ed9abe3589b85506bc6') in 0.031926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Shield 2.png
+  artifactKey: Guid(95225b98114fcf245b8992aab7f4ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Shield 2.png using Guid(95225b98114fcf245b8992aab7f4ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824d2a245327930d27c554746561890f') in 0.026954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Skull.png
+  artifactKey: Guid(f48cf026170fb2245920a77961889595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Skull.png using Guid(f48cf026170fb2245920a77961889595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7811ef800417461736f82d803ea0a3') in 0.025220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Smiley.png
+  artifactKey: Guid(bd0eb31f565efa9478845672908fb5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Smiley.png using Guid(bd0eb31f565efa9478845672908fb5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff0cf6df1f381ed96cebdd1e9cac667') in 0.033341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sound 1.png
+  artifactKey: Guid(a96c62549a14614499aac5612947a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Sound 1.png using Guid(a96c62549a14614499aac5612947a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8509da1dbbf2bc583c198579dc88d117') in 0.028259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Subtract.png
+  artifactKey: Guid(83c48d5ebdbe1aa4289d3ab22bce4475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Subtract.png using Guid(83c48d5ebdbe1aa4289d3ab22bce4475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5ed50453df207f8f2f93db9beb78d1') in 0.033954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Speed Boost 2.png
+  artifactKey: Guid(8bed94d544d1a7243a0281fe7aef409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Speed Boost 2.png using Guid(8bed94d544d1a7243a0281fe7aef409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ab838bc9d8c68f6815c1db7bfc903') in 0.028676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Store.png
+  artifactKey: Guid(a904c54a953d9ab47b70d69f609e1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Store.png using Guid(a904c54a953d9ab47b70d69f609e1d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecff7656defc4bc91602e5c2b4cd637') in 0.023278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Slider 1.png
+  artifactKey: Guid(680d68b9e0390e940ba4d1b60505da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Slider 1.png using Guid(680d68b9e0390e940ba4d1b60505da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8d1af3e70db0b2f5df3a5426009383') in 0.024299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sound Off 2.png
+  artifactKey: Guid(d7f4f52e0d03f214b8b9ff47d92ab909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Sound Off 2.png using Guid(d7f4f52e0d03f214b8b9ff47d92ab909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3247f37da6e7dd60a3ce99f8ef71a7') in 0.026197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Symbol 10.png
+  artifactKey: Guid(5a189062964e1c4428b9ba1721e40f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Symbol 10.png using Guid(5a189062964e1c4428b9ba1721e40f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e91d7b9820da004ff271ead9dbec4f') in 0.024210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Star.png
+  artifactKey: Guid(549111a49c8214749bbef8520be1612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Star.png using Guid(549111a49c8214749bbef8520be1612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8241e090645bbc9952eda005504f2ac') in 0.030320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017618 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Symbol 14.png
+  artifactKey: Guid(53cc92633a87d6241ba0a506c3aa2194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Symbol 14.png using Guid(53cc92633a87d6241ba0a506c3aa2194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c237ff0e5e7449936e2c34ab547598d') in 0.028189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.026346 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Symbol 18.png
+  artifactKey: Guid(d82329b5d9f370d4e814fe7e8c02ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Symbol 18.png using Guid(d82329b5d9f370d4e814fe7e8c02ec35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bb51e82705c020d77ffeea2a268f64') in 0.027533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Sysmbol 2.png
+  artifactKey: Guid(d5b3390a688e4734fb45b156d705007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Sysmbol 2.png using Guid(d5b3390a688e4734fb45b156d705007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d91f9d2c44460bcaa522305fc8b9a1') in 0.025687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White ThumbUp.png
+  artifactKey: Guid(411d27a3e567bfd45a0459692ff62892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White ThumbUp.png using Guid(411d27a3e567bfd45a0459692ff62892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f94e68f16514f32804a472466fe02f') in 0.027419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.240020 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Time.png
+  artifactKey: Guid(a40a3560ea6b3394ca8c94f5bcebb3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Time.png using Guid(a40a3560ea6b3394ca8c94f5bcebb3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9c0fa0a2f5fa3e88dd3a5e773ccb8') in 0.037568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Timer 2.png
+  artifactKey: Guid(46e282c8e13edf341aea74601733bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Timer 2.png using Guid(46e282c8e13edf341aea74601733bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd0ab6816230819f2ca46bf44b2ec5a') in 0.032006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Trophy.png
+  artifactKey: Guid(e2adbf29c766b42468aa462579f209c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Trophy.png using Guid(e2adbf29c766b42468aa462579f209c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d11bfa1d20673706d2c4bdaa38c7f5') in 0.035618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015008 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Voice On.png
+  artifactKey: Guid(4fde89ca55388d04e9a06fe25e766e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Voice On.png using Guid(4fde89ca55388d04e9a06fe25e766e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9495676f6fa195035c6235cd64e7b45a') in 0.043388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Wifi Off.png
+  artifactKey: Guid(1aff3340ed7e926428aa6c62c17c0320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Wifi Off.png using Guid(1aff3340ed7e926428aa6c62c17c0320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89837a7d3fb2985a85e93d8c553db3bb') in 0.028038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White Wind.png
+  artifactKey: Guid(18c2b2835adc9af449c20657c11ad67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White Wind.png using Guid(18c2b2835adc9af449c20657c11ad67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b2f1c8f94a84b6492bcda932260cd6') in 0.029990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031085 seconds.
+  path: Assets/Assets/Dark UI/New Icons/White YingYang.png
+  artifactKey: Guid(414496487c09c124c8c4a69594c0a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Dark UI/New Icons/White YingYang.png using Guid(414496487c09c124c8c4a69594c0a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6c8c79efef394ffbeef0a9d1d87374') in 0.029961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
