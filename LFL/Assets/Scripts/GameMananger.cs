@@ -7,6 +7,7 @@ public class GameMananger : MonoBehaviour
 
     public static GameMananger Instance;
 
+    public GameObject inGamePannel;
     public GameObject matchResultPannel;
 
     private int rand;
@@ -31,6 +32,8 @@ public class GameMananger : MonoBehaviour
 
         Debug.Log(" 매치 시작 ");
 
+        inGamePannel.SetActive(true);
+
         yield return new WaitForSeconds(3.0f);
 
         if(rand == 0)
@@ -43,6 +46,8 @@ public class GameMananger : MonoBehaviour
         }
 
         yield return new WaitForSeconds(3.0f);
+
+        inGamePannel.SetActive(false);
 
         matchResultPannel.SetActive(true);
 
