@@ -377,6 +377,9 @@
 -analyzer:"D:/ForUnity/UnitySource/Editor/2022.3.23f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/GameMananger.cs"
 "Assets/Scripts/StartController.cs"
+"Assets/Scripts/StoneSlime.cs"
+"Assets/Scripts/Unit.cs"
+"Assets/Scripts/UnitData.cs"
 -langversion:9.0
 
 /deterministic
