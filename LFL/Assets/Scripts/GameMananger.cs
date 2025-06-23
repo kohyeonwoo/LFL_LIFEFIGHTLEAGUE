@@ -10,6 +10,10 @@ public class GameMananger : MonoBehaviour
     public GameObject inGamePannel;
     public GameObject matchResultPannel;
 
+    public Unit playerUnit;
+
+    public Unit otherUnit;
+
     private int rand;
 
     private void Awake()
@@ -34,24 +38,23 @@ public class GameMananger : MonoBehaviour
 
         inGamePannel.SetActive(true);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(2.0f);
 
-        if(rand == 0)
-        {
-            Debug.Log(" 플레이어 유리 ");
-        }
-        else if(rand == 1)
-        {
-            Debug.Log(" 상대 유리 ");
-        }
+       // playerUnit.SetHealth(otherUnit.GetAttackPoint() - playerUnit.GetDefencePoint());
 
-        yield return new WaitForSeconds(3.0f);
+      //  otherUnit.SetHealth(playerUnit.GetAttackPoint() - otherUnit.GetDefencePoint());
+
+        yield return new WaitForSeconds(2.0f);
 
         inGamePannel.SetActive(false);
 
         matchResultPannel.SetActive(true);
 
         Debug.Log(" 매치 종료 ");
+
+        Debug.Log(" 플레이어 체력 : " + playerUnit.GetHealth());
+
+        Debug.Log(" 상대편 체력 : " + otherUnit.GetHealth());
 
         yield return null;
     }

@@ -19,11 +19,26 @@ public class Unit : MonoBehaviour
         attackPoint = unitData.AttackPoint;
         speed = unitData.Speed;
         defencePoint = unitData.DefencePoint;
-
-        Debug.Log(" unitName = " + unitName);
-        Debug.Log(" health = " + health);
-        Debug.Log(" attackPoint = " + attackPoint);
-        Debug.Log(" speed = " + speed);
-        Debug.Log(" defencePoint = " + defencePoint);
     }
+
+    public float GetHealth()
+    {
+        return health;
+    }
+
+    public float GetAttackPoint()
+    {
+        return attackPoint;
+    }
+
+    public float GetDefencePoint()
+    {
+        return defencePoint;
+    } 
+
+    public void SetHealth(float Health)
+    {
+        health = Health;
+    }
+
 }
