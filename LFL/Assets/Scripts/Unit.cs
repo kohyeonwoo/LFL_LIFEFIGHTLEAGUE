@@ -4,41 +4,41 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
-    public UnitData unitData;
+    //public UnitData unitData;
 
-    private string unitName;
-    private float health;
-    private float attackPoint;
-    private float speed;
-    private float defencePoint;
+    public string unitName;
+    public float health;
+    public float attackPoint;
+    public float speed;
+    public float defencePoint;
 
-    public void Init()
+    public void Damage(float Damage)
     {
-        unitName = unitData.name;
-        health = unitData.Health;
-        attackPoint = unitData.AttackPoint;
-        speed = unitData.Speed;
-        defencePoint = unitData.DefencePoint;
+        health -= Damage;
     }
 
-    public float GetHealth()
-    {
-        return health;
-    }
+    //public void Init()
+    //{
+    //    unitName = unitData.name;
+    //    health = unitData.Health;
+    //    attackPoint = unitData.AttackPoint;
+    //    speed = unitData.Speed;
+    //    defencePoint = unitData.DefencePoint;
+    //}
 
-    public float GetAttackPoint()
-    {
-        return attackPoint;
-    }
+    //public float GetHealth()
+    //{
+    //    return health;
+    //}
 
-    public float GetDefencePoint()
-    {
-        return defencePoint;
-    } 
+    //public float GetAttackPoint()
+    //{
+    //    return attackPoint;
+    //}
 
-    public void SetHealth(float Health)
-    {
-        health = Health;
-    }
+    //public float GetDefencePoint()
+    //{
+    //    return defencePoint;
+    //} 
 
 }

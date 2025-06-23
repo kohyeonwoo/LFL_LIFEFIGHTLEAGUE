@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 871c0020809cd014d87a6e56f282334e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitData: {fileID: 11400000, guid: 590c0c36f824a5f47af3373b8777c9e3, type: 2}
-  unitName: 
-  health: 0
-  attackPoint: 0
-  speed: 0
-  defencePoint: 0
+  unitName: StoneSlime
+  health: 5
+  attackPoint: 1
+  speed: 1
+  defencePoint: 3

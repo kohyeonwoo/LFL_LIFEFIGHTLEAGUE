@@ -10,11 +10,8 @@ public class GameMananger : MonoBehaviour
     public GameObject inGamePannel;
     public GameObject matchResultPannel;
 
-    public Unit playerUnit;
-
-    public Unit otherUnit;
-
-    private int rand;
+    public List<Unit> playerUnit = new List<Unit>();
+    public List<Unit> oppositeUnit = new List<Unit>();
 
     private void Awake()
     {
@@ -26,8 +23,6 @@ public class GameMananger : MonoBehaviour
 
     public void PlayingMatch()
     {
-        rand = Random.Range(0, 2);
-
         StartCoroutine(PlayingMatchCo());
     }
 
@@ -38,13 +33,7 @@ public class GameMananger : MonoBehaviour
 
         inGamePannel.SetActive(true);
 
-        yield return new WaitForSeconds(2.0f);
-
-       // playerUnit.SetHealth(otherUnit.GetAttackPoint() - playerUnit.GetDefencePoint());
-
-      //  otherUnit.SetHealth(playerUnit.GetAttackPoint() - otherUnit.GetDefencePoint());
-
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1.0f);
 
         inGamePannel.SetActive(false);
 
@@ -52,11 +41,6 @@ public class GameMananger : MonoBehaviour
 
         Debug.Log(" 매치 종료 ");
 
-        Debug.Log(" 플레이어 체력 : " + playerUnit.GetHealth());
-
-        Debug.Log(" 상대편 체력 : " + otherUnit.GetHealth());
-
-        yield return null;
     }
 
 }

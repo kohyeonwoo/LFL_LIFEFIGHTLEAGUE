@@ -44,9 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950ebf53125705d408c4e8cb3d106b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitData: {fileID: 11400000, guid: cea9064dd2de6c34c98d8bb576d92cff, type: 2}
-  unitName: 
-  health: 0
-  attackPoint: 0
-  speed: 0
-  defencePoint: 0
+  unitName: Skeleton
+  health: 3
+  attackPoint: 2
+  speed: 1
+  defencePoint: 2
