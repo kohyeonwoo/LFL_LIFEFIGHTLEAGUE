@@ -9,9 +9,12 @@ public class GameMananger : MonoBehaviour
 
     public GameObject inGamePannel;
     public GameObject matchResultPannel;
+    public GameObject buttonSpawnPannel;
 
     public List<Unit> playerUnit = new List<Unit>();
     public List<Unit> oppositeUnit = new List<Unit>();
+
+    public List<GameObject> buyButtons = new List<GameObject>();
 
     private void Awake()
     {
@@ -19,6 +22,11 @@ public class GameMananger : MonoBehaviour
         {
             Instance = this;
         }
+    }
+
+    private void Start()
+    {
+        SpawnBuyButtons();
     }
 
     public void PlayingMatch()
@@ -41,6 +49,19 @@ public class GameMananger : MonoBehaviour
 
         Debug.Log(" 매치 종료 ");
 
+    }
+
+    public void SpawnBuyButtons()
+    {
+        for(int i =0; i < 9; i++)
+        {
+            Instantiate(buyButtons[0], buttonSpawnPannel.transform);
+        } 
+    }
+
+    public void BuyUnit(Unit units)
+    {
+        playerUnit.Add(units);
     }
 
 }

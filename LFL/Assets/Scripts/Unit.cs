@@ -6,6 +6,7 @@ public class Unit : MonoBehaviour
 {
     //public UnitData unitData;
 
+    public Sprite sprites;
     public string unitName;
     public float health;
     public float attackPoint;
