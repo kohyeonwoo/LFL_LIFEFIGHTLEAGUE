@@ -612,6 +612,8 @@ MonoBehaviour:
   - {fileID: 7125332877145665191, guid: e2d6b67e4090e224681f8f0bd82e1940, type: 3}
   playerUnit: []
   oppositeUnit: []
+  testUnits:
+  - {fileID: 1007212197082000006, guid: b389e23fb66a0bb4babea85f31dc38ea, type: 3}
   buyButtons:
   - {fileID: 154730705946253532, guid: ed60430c999f10d408e70460dee17ad6, type: 3}
   totalPlayerUnitsAttackPoint: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Members : Unit
 {
-    private void Start()
+    private void Awake()
     {
         Init();
     }
