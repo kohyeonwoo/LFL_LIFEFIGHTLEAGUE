@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class UnitBuyingUI : MonoBehaviour
 {
+
+    public Text unitNameText;
+
     public Image images;
 
     public List<Sprite> unitImages;
@@ -13,6 +16,8 @@ public class UnitBuyingUI : MonoBehaviour
 
     private void Start()
     {
+
+       // unitNameText.text = buyUnit.unitName;
 
         int rand = Random.Range(0, unitImages.Count);
 
@@ -26,7 +31,7 @@ public class UnitBuyingUI : MonoBehaviour
 
     public void PushToPlayerUnitQue()
     {
-        GameMananger.Instance.playerUnit.Add(buyUnit);
+       // GameMananger.Instance.playerUnit.Add(buyUnit);
 
         Instantiate(buyUnit);
     }

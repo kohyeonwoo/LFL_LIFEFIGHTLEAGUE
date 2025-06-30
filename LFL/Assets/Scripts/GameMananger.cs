@@ -18,11 +18,9 @@ public class GameMananger : MonoBehaviour
     public List<GameObject> buyButtons = new List<GameObject>();
 
     public float totalPlayerUnitsAttackPoint;
-    public float totalOtherTeam1UnitsAttackPoint;
-    public float totalOtherTeam2UnitsAttackPoint;
-    public float totalOtherTeam3UnitsAttackPoint;
-    public float totalOtherTeam4UnitsAttackPoint;
-    public float totalOtherTeam5UnitsAttackPoint;
+    public float totalPlayerUnitDefencePoint;
+    public float totalPlayerUnitsHealth;
+
 
     private void Awake()
     {
@@ -65,6 +63,13 @@ public class GameMananger : MonoBehaviour
         {
             Instantiate(buyButtons[0], buttonSpawnPannel.transform);
         } 
+    }
+
+    public void CurrentPlayerUnitStats()
+    {
+        Debug.Log("플레이어 팀 현재 체력 : " + totalPlayerUnitsHealth);
+        Debug.Log("플레이어 팀 현재 공격력 : " + totalPlayerUnitsAttackPoint);
+        Debug.Log("플레이어 팀 현재 방어력 : " + totalPlayerUnitDefencePoint);
     }
 
 }
