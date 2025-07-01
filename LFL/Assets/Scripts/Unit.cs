@@ -11,10 +11,10 @@ public class Unit : MonoBehaviour
     public UnitType unitTypes;
 
     public string unitName;
-    public float health;
-    public float attackPoint;
-    public float speed;
-    public float defencePoint;
+    public int health;
+    public int attackPoint;
+    public int speed;
+    public int defencePoint;
 
     public void Init()
     {
@@ -49,7 +49,7 @@ public class Unit : MonoBehaviour
 
     }
 
-    public void Damage(float Damage)
+    public void Damage(int Damage)
     {
         health -= Damage;
     }

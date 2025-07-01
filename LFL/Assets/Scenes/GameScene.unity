@@ -339,6 +339,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 257061765}
+        m_TargetAssemblyTypeName: GameMananger, Assembly-CSharp
+        m_MethodName: GoNextMatch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &81232229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,16 +624,16 @@ MonoBehaviour:
   - {fileID: 7125332877145665191, guid: e2d6b67e4090e224681f8f0bd82e1940, type: 3}
   playerUnit: []
   oppositeUnit: []
-  testUnits:
-  - {fileID: 1007212197082000006, guid: b389e23fb66a0bb4babea85f31dc38ea, type: 3}
   buyButtons:
   - {fileID: 154730705946253532, guid: ed60430c999f10d408e70460dee17ad6, type: 3}
   totalPlayerUnitsAttackPoint: 0
-  totalOtherTeam1UnitsAttackPoint: 0
-  totalOtherTeam2UnitsAttackPoint: 0
-  totalOtherTeam3UnitsAttackPoint: 0
-  totalOtherTeam4UnitsAttackPoint: 0
-  totalOtherTeam5UnitsAttackPoint: 0
+  totalPlayerUnitDefencePoint: 0
+  totalPlayerUnitsHealth: 0
+  oppositeUnitsAttackPoint: 0
+  oppositeUnitsDefencePoint: 0
+  oppositeUnitsHealthPoints: 0
+  forPlayerDamage: 0
+  forOppositeDamage: 0
 --- !u!1 &306940945
 GameObject:
   m_ObjectHideFlags: 0
