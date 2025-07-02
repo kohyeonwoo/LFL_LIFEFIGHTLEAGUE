@@ -17,8 +17,6 @@ public class UnitBuyingUI : MonoBehaviour
     private void Start()
     {
 
-       // unitNameText.text = buyUnit.unitName;
-
         int rand = Random.Range(0, unitImages.Count);
 
         int rand2 = Random.Range(0, GameMananger.Instance.allUnits.Count);
@@ -31,16 +29,12 @@ public class UnitBuyingUI : MonoBehaviour
 
     public void PushToPlayerUnitQue()
     {
-       // GameMananger.Instance.playerUnit.Add(buyUnit);
-
         Instantiate(buyUnit);
     }
 
     public void EraseUI()
     {
         this.gameObject.SetActive(false);
-
-      //  Destroy(this.gameObject);   
     }
 
 }

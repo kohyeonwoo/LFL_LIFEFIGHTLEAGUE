@@ -6,7 +6,6 @@ public enum UnitType {None, MeatShield, GlassCannon }
 
 public class Unit : MonoBehaviour
 {
-    //public UnitData unitData;
 
     public UnitType unitTypes;
 
@@ -53,29 +52,5 @@ public class Unit : MonoBehaviour
     {
         health -= Damage;
     }
-
-    //public void Init()
-    //{
-    //    unitName = unitData.name;
-    //    health = unitData.Health;
-    //    attackPoint = unitData.AttackPoint;
-    //    speed = unitData.Speed;
-    //    defencePoint = unitData.DefencePoint;
-    //}
-
-    //public float GetHealth()
-    //{
-    //    return health;
-    //}
-
-    //public float GetAttackPoint()
-    //{
-    //    return attackPoint;
-    //}
-
-    //public float GetDefencePoint()
-    //{
-    //    return defencePoint;
-    //} 
 
 }

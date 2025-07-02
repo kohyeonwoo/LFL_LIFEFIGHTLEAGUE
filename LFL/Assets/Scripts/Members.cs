@@ -15,7 +15,5 @@ public class Members : Unit
         GameMananger.Instance.totalPlayerUnitsAttackPoint += this.attackPoint;
         GameMananger.Instance.totalPlayerUnitDefencePoint += this.defencePoint;
 
-        GameMananger.Instance.CurrentPlayerUnitStats();
-
     }
 }
