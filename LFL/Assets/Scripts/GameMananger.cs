@@ -49,10 +49,10 @@ public class GameMananger : MonoBehaviour
     public int opposite2WinPoint;
     public int opposite3WinPoint;
 
-    // 랭킹 관련 위치 
-    public Transform ranking1Transform;
-
-    public List<Text> teamText = new List<Text>();
+    public Text playerTeamText;
+    public Text opposite1Text;
+    public Text opposite2Text;
+    public Text opposite3Text;
 
 
     private void Awake()
@@ -90,8 +90,14 @@ public class GameMananger : MonoBehaviour
         oppositeUnitsDefencePoint = Random.Range(Random.Range(1, 4), totalPlayerUnitDefencePoint + 3);
         oppositeUnitsHealthPoints = Random.Range(Random.Range(1, 4), totalPlayerUnitsHealth + 3);
 
-
-        StartCoroutine(PlayingMatchCo());
+        if(playerUnit.Count >= 1)
+        {
+            StartCoroutine(PlayingMatchCo());
+        }
+        else
+        {
+            Debug.Log(" 최소 한 개체 이상이 있어야 진행 가능합니다. ");
+        } 
 
     }
 
@@ -128,10 +134,12 @@ public class GameMananger : MonoBehaviour
             if (totalPlayerUnitsHealth > oppositeUnitsHealthPoints)
             {
                 Debug.Log("플레이어 승리");
+                playerWinPoint += 3;
             }
             else if(totalPlayerUnitsHealth < oppositeUnitsHealthPoints)
             {
                 Debug.Log("상대방 승리");
+                opposite1WinPoint += 3;
             }
         }
 
@@ -160,8 +168,9 @@ public class GameMananger : MonoBehaviour
         if(playerWinPoint  > opposite1WinPoint && playerWinPoint > opposite2WinPoint 
             && playerWinPoint > opposite3WinPoint)
         {
-            teamText[0].transform.position = ranking1Transform.position;
+            playerTeamText.gameObject.SetActive(true);
         }
+
     }
 
     //경기 끝난 후 화면 돌아가기
