@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitTypes: 0
+  unitSprite: {fileID: 21300000, guid: d55f0271f4a9d9b41a711e5ccb30ff23, type: 3}
   unitName: Golem
   health: 0
   attackPoint: 0

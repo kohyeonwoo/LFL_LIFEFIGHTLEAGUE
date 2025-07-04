@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitTypes: 0
+  unitSprite: {fileID: 21300000, guid: 0de7d05503134cd448ccc88de52ea706, type: 3}
   unitName: Skeleton
   health: 0
   attackPoint: 0

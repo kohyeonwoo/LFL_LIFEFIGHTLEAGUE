@@ -141,6 +141,18 @@ public class GameMananger : MonoBehaviour
                 Debug.Log("상대방 승리");
                 opposite1WinPoint += 3;
             }
+
+            int randomResult = Random.Range(0, 2);
+
+            if(randomResult == 0)
+            {
+                opposite2WinPoint += 3;
+            }
+            else
+            {
+                opposite3WinPoint += 3;
+            }
+
         }
 
         yield return new WaitForSeconds(1.0f);
@@ -177,7 +189,9 @@ public class GameMananger : MonoBehaviour
 
     public void GoNextMatch()
     {
-        SceneManager.LoadScene("GameScene");
+        // SceneManager.LoadScene("GameScene");
+        playerUnit.Clear();
+        oppositeUnit.Clear();   
     }
 
 }

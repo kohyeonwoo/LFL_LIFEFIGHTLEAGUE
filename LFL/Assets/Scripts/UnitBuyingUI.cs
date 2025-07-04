@@ -16,14 +16,16 @@ public class UnitBuyingUI : MonoBehaviour
 
     private void Start()
     {
-
+   
         int rand = Random.Range(0, unitImages.Count);
 
         int rand2 = Random.Range(0, GameMananger.Instance.allUnits.Count);
 
-        images.sprite = unitImages[rand];
-
+        // images.sprite = unitImages[rand];
+        
         buyUnit = GameMananger.Instance.allUnits[rand2];
+
+        images.sprite = buyUnit.unitSprite;
 
     }
 

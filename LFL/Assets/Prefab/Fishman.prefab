@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitTypes: 0
+  unitSprite: {fileID: 21300000, guid: d9fb037c332b94941bcac86cd8b40740, type: 3}
   unitName: Fishman
   health: 0
   attackPoint: 0

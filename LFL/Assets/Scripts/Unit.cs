@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public enum UnitType {None, MeatShield, GlassCannon }
@@ -8,6 +9,8 @@ public class Unit : MonoBehaviour
 {
 
     public UnitType unitTypes;
+
+    public Sprite unitSprite;
 
     public string unitName;
     public int health;

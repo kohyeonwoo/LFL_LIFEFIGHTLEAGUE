@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitTypes: 0
+  unitSprite: {fileID: 21300000, guid: 57138e9d3c1eb5f45b9dae12c88b9395, type: 3}
   unitName: Cowman
   health: 0
   attackPoint: 0
