@@ -104,6 +104,8 @@ public class GameMananger : MonoBehaviour
     public IEnumerator PlayingMatchCo()
     {
 
+        int rand = Random.Range(0, 3);
+
         Debug.Log(" 매치 시작 ");
 
         inGamePannel.SetActive(true);
@@ -139,18 +141,19 @@ public class GameMananger : MonoBehaviour
             else if(totalPlayerUnitsHealth < oppositeUnitsHealthPoints)
             {
                 Debug.Log("상대방 승리");
-                opposite1WinPoint += 3;
-            }
 
-            int randomResult = Random.Range(0, 2);
-
-            if(randomResult == 0)
-            {
-                opposite2WinPoint += 3;
-            }
-            else
-            {
-                opposite3WinPoint += 3;
+                if(rand == 0)
+                {
+                    opposite1WinPoint += 3;
+                }
+                else if(rand == 1)
+                {
+                    opposite2WinPoint += 3;
+                }else if(rand == 2)
+                {
+                    opposite3WinPoint += 3;
+                }
+               
             }
 
         }
@@ -191,7 +194,18 @@ public class GameMananger : MonoBehaviour
     {
         // SceneManager.LoadScene("GameScene");
         playerUnit.Clear();
-        oppositeUnit.Clear();   
+        oppositeUnit.Clear();
+
+        totalPlayerUnitsAttackPoint = 0;
+        totalPlayerUnitDefencePoint = 0;
+        totalPlayerUnitsHealth = 0;
+
+        oppositeUnitsAttackPoint = 0;
+        oppositeUnitsDefencePoint = 0;
+        oppositeUnitsHealthPoints = 0;
+
+        forPlayerDamage = 0;
+        forOppositeDamage = 0;
     }
 
 }
