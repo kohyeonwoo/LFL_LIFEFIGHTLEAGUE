@@ -54,6 +54,20 @@ public class GameMananger : MonoBehaviour
     public Text opposite2Text;
     public Text opposite3Text;
 
+    //플레이어 및 적 팀 로고 부분 
+
+    public GameObject opposite1Logo;
+    public GameObject opposite2Logo;
+    public GameObject opposite3Logo;
+
+    // 플레이어 및 적 승리용 텍스트 부분 모음 
+
+    public GameObject playerWinText;
+    public GameObject opposite1WinText;
+    public GameObject opposite2WinText;
+    public GameObject opposite3WinText;
+    public GameObject drawText;
+
 
     private void Awake()
     {
@@ -101,6 +115,7 @@ public class GameMananger : MonoBehaviour
 
     }
 
+    //인 게임 진행 관련 부분 
     public IEnumerator PlayingMatchCo()
     {
 
@@ -121,6 +136,7 @@ public class GameMananger : MonoBehaviour
         if(forPlayerDamage <= 0 || forOppositeDamage <= 0)
         {
             Debug.Log("비김");
+            drawText.SetActive(true);
         }
         else
         {
@@ -137,6 +153,7 @@ public class GameMananger : MonoBehaviour
             {
                 Debug.Log("플레이어 승리");
                 playerWinPoint += 3;
+                playerWinText.SetActive(true);
             }
             else if(totalPlayerUnitsHealth < oppositeUnitsHealthPoints)
             {
@@ -145,13 +162,17 @@ public class GameMananger : MonoBehaviour
                 if(rand == 0)
                 {
                     opposite1WinPoint += 3;
+                    opposite1WinText.SetActive(true);
                 }
                 else if(rand == 1)
                 {
                     opposite2WinPoint += 3;
-                }else if(rand == 2)
+                    opposite2WinText.SetActive(true);
+                }
+                else if(rand == 2)
                 {
                     opposite3WinPoint += 3;
+                    opposite3WinText.SetActive(true);
                 }
                
             }
@@ -206,6 +227,12 @@ public class GameMananger : MonoBehaviour
 
         forPlayerDamage = 0;
         forOppositeDamage = 0;
+
+        playerWinText.SetActive(false);
+        opposite1WinText.SetActive(false);
+        opposite2WinText.SetActive(false);
+        opposite3WinText.SetActive(false);
+        drawText.SetActive(false);
     }
 
 }
